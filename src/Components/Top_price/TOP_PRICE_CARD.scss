@@ -1,0 +1,55 @@
+@import '../../index.scss';
+
+.top-price__card {
+  font-weight: 500;
+
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+
+  width: 100%;
+  padding: 10px;
+  padding-bottom: 15px;
+
+  color: #000;
+  border-radius: 5px;
+  box-shadow: 0 1px 6px 0 rgba(0, 0, 0, .12), 0 1px 6px 0 rgba(0, 0, 0, .12);
+  &-img {
+    width: 275px;
+    height: 275px;
+    img {
+      height: 100%;
+    }
+  }
+  &-text {
+    margin-top: 15px;
+    padding-right: 25px;
+    padding-left: 25px;
+
+    text-align: left;
+    text-align: center;
+  }
+  &-price {
+    display: flex;
+    align-self: flex-start;
+    font-weight: 700;
+    font-size: 20px;
+
+    margin-top: 15px;
+    padding-left: 20px;
+
+    color: #c2071d;
+  }
+  &--prices {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    color: #fff;
+    background-color: orange;
+    border-radius: 50px;
+    padding: 7px 15px;
+  }
+}

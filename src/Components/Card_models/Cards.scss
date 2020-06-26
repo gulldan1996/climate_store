@@ -1,0 +1,20 @@
+@import '../../index.scss';
+
+.cards-model {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+@media screen and (max-width: $break-point-table-lg) {
+  .cards-model {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: $break-point-phone) {
+  .cards-model {
+    grid-template-columns: 1fr;
+  }
+}
+

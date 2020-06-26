@@ -1,0 +1,12 @@
+@import '../../../index.scss';
+
+.nav {
+  height: 55px;
+  background-color: #6a6a6a;
+}
+
+@media screen and (max-width: $break-point-phone) {
+  .nav {
+    margin-top: 80px;
+  }
+}

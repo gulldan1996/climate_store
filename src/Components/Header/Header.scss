@@ -1,0 +1,98 @@
+@import '../../index.scss';
+
+.header {
+  flex: 1;
+  height: 100%;
+  .top {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+
+    height: 100px;
+    padding-right: 20px;
+    padding-left: 20px;
+    &_phone {
+      position: relative;
+
+      .name {
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 18px;
+        color: #6a6a6a;
+      }
+      .number {
+        font-weight: 700;
+
+        transition: .5s linear all;
+
+        color: #c2071d;
+        &::after {
+          position: absolute;
+          bottom: -5px;
+          left: 0;
+
+          width: 30px;
+          height: 1px;
+
+          content: '';
+          transition: width ease-in .2s;
+
+          background-color: #c2071d;
+        }
+        &:hover::after {
+          left: 0;
+
+          width: 100%;
+
+          transition: width ease-in .2s;
+        }
+      }
+      .phone_telegram {
+        position: absolute;
+        top: -3px;
+        left: -70px;
+        &-img {
+          width: 50px;
+          height: 50px;
+        }
+      }
+    }
+
+    &_logo {
+      line-height: 140px;
+
+      width: 140px;
+      height: 140px;
+      transition: .2s all ease-in-out;
+      &:hover {
+        opacity: .7;
+      }
+      img {
+        vertical-align: middle;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: $break-point-phone) {
+  .header {
+    margin-top: 30px;
+    .top {
+      flex-direction: column;
+      justify-content: center;
+
+      &_phone {
+        margin-left: 50px;
+      }
+
+
+      &_logo {
+        width: 250px;
+        img {
+          margin-top: -20px;
+        }
+      }
+    }
+  }
+}

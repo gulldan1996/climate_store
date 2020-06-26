@@ -1,0 +1,38 @@
+@import '../../index.scss';
+
+.top-price {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-right: 20px;
+  padding-left: 20px;
+  .top-cards {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+  }
+}
+
+@media screen and (max-width: $break-point-desktop-small) {
+  .top-price {
+    .top-cards {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
+}
+
+@media screen and (max-width: $break-point-table-lg) {
+  .top-price {
+    .top-cards {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+}
+
+@media screen and (max-width: $break-point-phone) {
+  .top-price {
+    .top-cards {
+      grid-template-columns: 1fr;
+    }
+  }
+}

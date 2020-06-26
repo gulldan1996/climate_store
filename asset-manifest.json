@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/climate_store/static/css/main.96c24361.chunk.css",
+    "main.js": "/climate_store/static/js/main.5a237baa.chunk.js",
+    "main.js.map": "/climate_store/static/js/main.5a237baa.chunk.js.map",
+    "runtime-main.js": "/climate_store/static/js/runtime-main.c716d433.js",
+    "runtime-main.js.map": "/climate_store/static/js/runtime-main.c716d433.js.map",
+    "static/js/2.47482f1c.chunk.js": "/climate_store/static/js/2.47482f1c.chunk.js",
+    "static/js/2.47482f1c.chunk.js.map": "/climate_store/static/js/2.47482f1c.chunk.js.map",
+    "index.html": "/climate_store/index.html",
+    "precache-manifest.b1fc8f6c77a9064823cea4442dbed3d5.js": "/climate_store/precache-manifest.b1fc8f6c77a9064823cea4442dbed3d5.js",
+    "service-worker.js": "/climate_store/service-worker.js",
+    "static/css/main.96c24361.chunk.css.map": "/climate_store/static/css/main.96c24361.chunk.css.map",
+    "static/js/2.47482f1c.chunk.js.LICENSE.txt": "/climate_store/static/js/2.47482f1c.chunk.js.LICENSE.txt",
+    "static/media/FTXLA_wifi.jpg": "/climate_store/static/media/FTXLA_wifi.20392b4a.jpg",
+    "static/media/Kolag_bora.jpg": "/climate_store/static/media/Kolag_bora.1110f141.jpg",
+    "static/media/Smart_kolag.jpg": "/climate_store/static/media/Smart_kolag.9d253cb2.jpg",
+    "static/media/aux-card.jpg": "/climate_store/static/media/aux-card.829e0e0a.jpg",
+    "static/media/aux-svg.png": "/climate_store/static/media/aux-svg.0cb5f36d.png",
+    "static/media/categoryimage14806051092.jpg": "/climate_store/static/media/categoryimage14806051092.1eb15b21.jpg",
+    "static/media/ch-card.jpg": "/climate_store/static/media/ch-card.cc909696.jpg",
+    "static/media/ch.png": "/climate_store/static/media/ch.da28c44b.png",
+    "static/media/climate_store.svg": "/climate_store/static/media/climate_store.4a796bb4.svg",
+    "static/media/condicioner_gree_practic_pro.jpg": "/climate_store/static/media/condicioner_gree_practic_pro.c08a0c28.jpg",
+    "static/media/gree-card.jpg": "/climate_store/static/media/gree-card.aca8c825.jpg",
+    "static/media/gree.png": "/climate_store/static/media/gree.e76b466e.png",
+    "static/media/me-card.jpg": "/climate_store/static/media/me-card.5179b1fa.jpg",
+    "static/media/me.png": "/climate_store/static/media/me.92ee2c6d.png",
+    "static/media/mitsubishi-electric-msz-ef25ve2s-muz-ef25ve.jpg": "/climate_store/static/media/mitsubishi-electric-msz-ef25ve2s-muz-ef25ve.8357fb2b.jpg",
+    "static/media/tcl-card.jpg": "/climate_store/static/media/tcl-card.8fcac6e0.jpg",
+    "static/media/tcl.png": "/climate_store/static/media/tcl.9cb7912a.png",
+    "static/media/tcl.jpg": "/climate_store/static/media/tcl.ef9dae2b.jpg",
+    "static/media/telegram.svg": "/climate_store/static/media/telegram.a888fec0.svg",
+    "static/media/winner_ch-600x60022.jpg": "/climate_store/static/media/winner_ch-600x60022.e3b2a372.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c716d433.js",
+    "static/js/2.47482f1c.chunk.js",
+    "static/css/main.96c24361.chunk.css",
+    "static/js/main.5a237baa.chunk.js"
+  ]
+}
